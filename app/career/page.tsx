@@ -265,7 +265,7 @@ export default function CareersPage() {
                 <img
                   src={currentProject.image}
                   alt={currentProject.title}
-                  className="w-full h-full object-cover object-center transition-opacity duration-500"
+                  className="w-full h-full object-contain object-center transition-opacity duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
 
