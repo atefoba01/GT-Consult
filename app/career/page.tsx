@@ -17,135 +17,196 @@ const projects = [
   {
     id: 1,
     image: "/c1.jpeg",
-    title: "",
-    description: "",
+    title: "Brand Innovation Summit",
+    description: "Leading Africa's premier storytelling conference",
     testimony:
       "Working on this project was transformative. GT Consult empowered our team to create meaningful impact through storytelling.",
-    author: "GT consult",
+    author: "GT Consult Team",
     role: "Content Strategist",
     rating: 5,
   },
   {
     id: 2,
     image: "/c2.jpeg",
-    title: "",
-    description: "",
+    title: "Digital Campaign Excellence",
+    description: "Award-winning advertising campaign launch",
     testimony:
       "The creative freedom and collaborative environment at GT Consult allowed me to deliver my best work and grow professionally.",
-    author: "GT consult",
+    author: "GT Consult Team",
     role: "Brand Designer",
     rating: 5,
   },
   {
     id: 3,
     image: "/c3.jpeg",
-    title: "",
-    description: "",
+    title: "Publishing Success Stories",
+    description: "Empowering African authors to reach global audiences",
     testimony:
       "GT Consult's publishing expertise and supportive team culture made this project an incredible learning experience.",
-    author: "GT consult",
+    author: "GT Consult Team",
     role: "Publishing Manager",
     rating: 5,
   },
   {
     id: 4,
     image: "/c4.jpeg",
-    title: "",
-    description: "",
+    title: "Corporate Event Management",
+    description: "Executive training and team building excellence",
     testimony:
       "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
+    author: "GT Consult Team",
     role: "Event Coordinator",
     rating: 5,
   },
   {
-    id: 4,
+    id: 5,
     image: "/c5.jpeg",
-    title: "",
-    description: "",
+    title: "Content Strategy Workshop",
+    description: "Training next-generation content creators",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "The collaborative approach and industry insights shared during this project elevated my professional capabilities.",
+    author: "GT Consult Team",
+    role: "Workshop Facilitator",
     rating: 5,
   },
   {
-    id: 4,
+    id: 6,
     image: "/c6.jpeg",
-    title: "",
-    description: "",
+    title: "Brand Transformation Project",
+    description: "Complete brand overhaul for leading organization",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "This project showcased GT Consult's ability to deliver comprehensive branding solutions with measurable impact.",
+    author: "GT Consult Team",
+    role: "Brand Strategist",
     rating: 5,
   },
   {
-    id: 4,
+    id: 7,
     image: "/c7.jpeg",
-    title: "",
-    description: "",
+    title: "Media Production Excellence",
+    description: "Creating compelling visual narratives",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "The production quality and creative vision on this project set new standards for our team's capabilities.",
+    author: "GT Consult Team",
+    role: "Media Producer",
     rating: 5,
   },
   {
-    id: 4,
+    id: 8,
     image: "/c8.jpeg",
-    title: "",
-    description: "",
+    title: "Digital Marketing Campaign",
+    description: "Multi-platform advertising success",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "Executing this integrated campaign taught me the power of data-driven creativity in digital advertising.",
+    author: "GT Consult Team",
+    role: "Marketing Specialist",
     rating: 5,
   },
   {
-    id: 4,
+    id: 9,
     image: "/c9.jpeg",
-    title: "",
-    description: "",
+    title: "Author Development Program",
+    description: "Supporting emerging African writers",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "Being part of this initiative to empower authors was incredibly fulfilling and impactful for all involved.",
+    author: "GT Consult Team",
+    role: "Publishing Consultant",
     rating: 5,
   },
   {
-    id: 4,
+    id: 10,
     image: "/c10.jpeg",
-    title: "",
-    description: "",
+    title: "Innovation Summit 2024",
+    description: "Connecting storytellers with digital innovation",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "This event brought together industry leaders and showcased GT Consult's position at the forefront of creative innovation.",
+    author: "GT Consult Team",
+    role: "Event Manager",
     rating: 5,
   },
   {
-    id: 4,
+    id: 11,
     image: "/c11.jpeg",
-    title: "",
-    description: "",
+    title: "Strategic Partnership Launch",
+    description: "Building bridges across creative industries",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "Facilitating this partnership demonstrated GT Consult's commitment to collaboration and industry growth.",
+    author: "GT Consult Team",
+    role: "Partnership Director",
     rating: 5,
   },
   {
-    id: 4,
+    id: 12,
     image: "/c13.jpeg",
-    title: "",
-    description: "",
+    title: "Community Engagement Initiative",
+    description: "Grassroots storytelling and empowerment",
     testimony:
-      "The resources and mentorship I received at GT Consult helped me execute this complex project successfully.",
-    author: "GT consult",
-    role: "Event Coordinator",
+      "This community-focused project reminded us of the transformative power of authentic storytelling and local engagement.",
+    author: "GT Consult Team",
+    role: "Community Manager",
     rating: 5,
   },
+  ///////////////////////////////////////////////
+  {
+    id: 12,
+    image: "/Publish.jpeg",
+    title: "Community Engagement Initiative",
+    description: "Grassroots storytelling and empowerment",
+    testimony:
+        "This community-focused project reminded us of the transformative power of authentic storytelling and local engagement.",
+    author: "GT Consult Team",
+    role: "Community Manager",
+    rating: 5,
+  },
+
+  {
+    id: 12,
+    image: "/Publish2.jpeg",
+    title: "Community Engagement Initiative",
+    description: "Grassroots storytelling and empowerment",
+    testimony:
+        "This community-focused project reminded us of the transformative power of authentic storytelling and local engagement.",
+    author: "GT Consult Team",
+    role: "Community Manager",
+    rating: 5,
+  },
+
+  {
+    id: 12,
+    image: "/writing.jpeg",
+    title: "Community Engagement Initiative",
+    description: "Grassroots storytelling and empowerment",
+    testimony:
+        "This community-focused project reminded us of the transformative power of authentic storytelling and local engagement.",
+    author: "GT Consult Team",
+    role: "Community Manager",
+    rating: 5,
+  },
+
+  {
+    id: 12,
+    image: "/writing2.jpeg",
+    title: "Community Engagement Initiative",
+    description: "Grassroots storytelling and empowerment",
+    testimony:
+        "This community-focused project reminded us of the transformative power of authentic storytelling and local engagement.",
+    author: "GT Consult Team",
+    role: "Community Manager",
+    rating: 5,
+  },
+
+  {
+    id: 12,
+    image: "/writing3.jpeg",
+    title: "Community Engagement Initiative",
+    description: "Grassroots storytelling and empowerment",
+    testimony:
+        "This community-focused project reminded us of the transformative power of authentic storytelling and local engagement.",
+    author: "GT Consult Team",
+    role: "Community Manager",
+    rating: 5,
+  },
+
 ];
 
 const jobOpenings = [
@@ -202,15 +263,18 @@ const benefits = [
 
 export default function CareersPage() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
-  // Auto-scroll functionality
+  // Auto-scroll functionality with pause capability
   useEffect(() => {
+    if (isPaused) return;
+    
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % projects.length);
-    }, 5000); // Change slide every 5 seconds
+    }, 7000); // Change slide every 7 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isPaused]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % projects.length);
@@ -258,9 +322,11 @@ export default function CareersPage() {
             {/* /////////////////////////// */}
 
             {/* Image Carousel - Very Compact Version */}
-            <div className="relative max-w-3xl mx-auto">
-              {" "}
-              {/* Narrower width, centered */}
+            <div 
+              className="relative max-w-3xl mx-auto"
+              onMouseEnter={() => setIsPaused(true)}
+              onMouseLeave={() => setIsPaused(false)}
+            >
               <div className="relative h-[260px] md:h-[300px] rounded-2xl overflow-hidden bg-gray-100 shadow-2xl">
                 <img
                   src={currentProject.image}
@@ -426,9 +492,12 @@ export default function CareersPage() {
                     </svg>
                     {job.location}
                   </p>
-                  <button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold py-3 rounded-lg transition-colors">
+                  <a 
+                    href="/contact"
+                    className="block w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold py-3 rounded-lg transition-colors text-center"
+                  >
                     Apply Now
-                  </button>
+                  </a>
                 </div>
               ))}
             </div>

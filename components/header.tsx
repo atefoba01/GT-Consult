@@ -41,10 +41,10 @@ export default function Header() {
               About
             </Link>
             <Link
-              href="/blog"
+              href="/portfolio"
               className="hover:text-secondary transition-colors"
             >
-              Blog
+              Portfolio
             </Link>
             <Link
               href="/career"
@@ -92,10 +92,10 @@ export default function Header() {
               About
             </Link>
             <Link
-              href="/blog"
-              className=" block hover:text-secondary transition-colors"
+              href="/portfolio"
+              className="block hover:text-secondary transition-colors"
             >
-              Blog
+              Portfolio
             </Link>
             <Link
               href="/career"

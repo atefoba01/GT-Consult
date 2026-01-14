@@ -42,10 +42,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/blog"
+                  href="/portfolio"
                   className="text-primary-foreground/80 hover:text-secondary transition-colors"
                 >
-                  Blog
+                  Portfolio
                 </Link>
               </li>
               <li>

@@ -35,22 +35,22 @@ const values = [
   },
 ];
 
-const milestones = [
+const brandPersonality = [
   {
-    year: " Professional yet Creative",
-    event: " We balance corporate reliability with artistic expression.",
+    trait: "Professional yet Creative",
+    description: "We balance corporate reliability with artistic expression.",
   },
   {
-    year: "Innovative",
-    event: "Always ahead with new tools and digital trends.",
+    trait: "Innovative",
+    description: "Always ahead with new tools and digital trends.",
   },
   {
-    year: " Impact-Driven",
-    event: " Focused on measurable results and long-term value.",
+    trait: "Impact-Driven",
+    description: "Focused on measurable results and long-term value.",
   },
   {
-    year: "Collaborative",
-    event: "We grow together with our clients and partners.",
+    trait: "Collaborative",
+    description: "We grow together with our clients and partners.",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function About() {
             About <span className="text-secondary">GT Consult</span>
           </h1>
 
-          <p className="text-xl lg:text-2xl text-primary-foreground/90 leading-relaxed max-w-none w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-0 max-w-4xl">
+          <p className="text-xl lg:text-2xl text-primary-foreground/90 leading-relaxed max-w-4xl mx-auto">
             GT Consult was born from a simple belief: that powerful ideas
             deserve to be seen, heard, and transformed into real influence. What
             began as a passion for writing and storytelling evolved into a
@@ -122,17 +122,17 @@ export default function About() {
               </p>
             </div>
             <div className="bg-gradient-to-br from-secondary/20 to-accent/20 rounded-xl p-8 text-center border border-secondary/30">
-              <p className="text-5xl font-bold text-accent mb-2">500+</p>
+              <p className="text-5xl font-bold text-accent mb-2">15+</p>
               <p className="text-foreground font-semibold">
                 Projects Completed
               </p>
             </div>
             <div className="bg-gradient-to-br from-secondary/20 to-accent/20 rounded-xl p-8 text-center border border-secondary/30">
-              <p className="text-5xl font-bold text-secondary mb-2">50+</p>
+              <p className="text-5xl font-bold text-secondary mb-2">10+</p>
               <p className="text-foreground font-semibold">Team Members</p>
             </div>
             <div className="bg-gradient-to-br from-secondary/20 to-accent/20 rounded-xl p-8 text-center border border-secondary/30">
-              <p className="text-5xl font-bold text-accent mb-2">15+</p>
+              <p className="text-5xl font-bold text-accent mb-2">8+</p>
               <p className="text-foreground font-semibold">Years Experience</p>
             </div>
           </div>
@@ -161,28 +161,59 @@ export default function About() {
         </div>
       </section>
 
-      {/* Journey Timeline */}
+      {/* Our Team */}
+      <section className="py-20 md:py-32 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-foreground mb-4">
+              Meet Our Team
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Our diverse team of creative professionals brings together expertise in writing, 
+              publishing, and digital strategy to deliver exceptional results.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { name: "Gbolahan Thompson", role: "Founder & CEO", initial: "G" },
+              { name: "Creative Team", role: "Content & Strategy", initial: "C" },
+              { name: "Digital Team", role: "Marketing & Tech", initial: "D" }
+            ].map((member, index) => (
+              <div key={index} className="bg-card border border-border rounded-xl p-8 text-center hover:shadow-lg transition-shadow">
+                <div className="w-24 h-24 bg-gradient-to-br from-secondary to-accent rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-white">
+                  {member.initial}
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-2">{member.name}</h3>
+                <p className="text-muted-foreground">{member.role}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Brand Personality */}
       <section className="py-20 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-foreground mb-12 text-center">
             Brand Personality
           </h2>
           <div className="space-y-6">
-            {milestones.map((milestone, index) => (
+            {brandPersonality.map((item, index) => (
               <div key={index} className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-secondary-foreground font-bold">
                     {index + 1}
                   </div>
-                  {index !== milestones.length - 1 && (
+                  {index !== brandPersonality.length - 1 && (
                     <div className="w-1 h-12 bg-border mt-2"></div>
                   )}
                 </div>
                 <div className="bg-card border border-border rounded-xl p-6 flex-grow">
                   <p className="text-secondary font-bold mb-2">
-                    {milestone.year}
+                    {item.trait}
                   </p>
-                  <p className="text-foreground">{milestone.event}</p>
+                  <p className="text-foreground">{item.description}</p>
                 </div>
               </div>
             ))}

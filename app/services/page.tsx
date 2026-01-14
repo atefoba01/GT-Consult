@@ -8,7 +8,7 @@ const servicesDetails = [
     title: "Professional Writing",
     description: "Craft compelling narratives and content that resonate with your audience and drive engagement.",
     features: ["Content Strategy", "Copywriting", "SEO Optimization", "Brand Voice Development"],
-    price: "Starting at $500",
+    price: "Custom Quote",
   },
   {
     icon: BookOpen,
@@ -22,14 +22,14 @@ const servicesDetails = [
     title: "Digital Advertising",
     description: "Strategic campaigns that amplify your message and connect you with the right audience.",
     features: ["Campaign Strategy", "Social Media Ads", "Google Ads", "Analytics & Reporting"],
-    price: "Starting at $1,000",
+    price: "Custom Quote",
   },
   {
     icon: Sparkles,
     title: "Brand Strategy",
     description: "Build your unique voice and establish a powerful presence in the digital marketplace.",
     features: ["Brand Identity", "Positioning", "Messaging Framework", "Implementation Guide"],
-    price: "Starting at $750",
+    price: "Custom Quote",
   },
 ]
 
@@ -60,46 +60,38 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Grid */}
+      {/* Services Grid - Comprehensive Display */}
       <section className="py-20 md:py-32 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
             {servicesDetails.map((service, index) => {
               const Icon = service.icon
               return (
                 <div
                   key={index}
-                  className="group bg-card border border-border rounded-xl p-8 hover:shadow-lg hover:border-secondary transition-all duration-300 flex flex-col"
+                  className="group bg-card border border-border rounded-xl p-8 hover:shadow-lg hover:border-secondary transition-all duration-300"
                 >
-                  <div className="w-14 h-14 bg-secondary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-secondary/30 transition-colors">
-                    <Icon className="w-7 h-7 text-secondary" />
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-14 h-14 bg-secondary/20 rounded-lg flex items-center justify-center group-hover:bg-secondary/30 transition-colors">
+                      <Icon className="w-7 h-7 text-secondary" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-foreground">{service.title}</h3>
+                      <p className="text-secondary font-semibold mt-1">{service.price}</p>
+                    </div>
                   </div>
-                  <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">{service.description}</p>
-                  <div className="text-secondary font-semibold">{service.price}</div>
+                  <p className="text-muted-foreground leading-relaxed mb-6">{service.description}</p>
+                  <ul className="space-y-3">
+                    {service.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-center gap-3 text-muted-foreground">
+                        <CheckCircle size={18} className="text-secondary flex-shrink-0" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )
             })}
-          </div>
-
-          {/* Detailed Service Features */}
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
-            {servicesDetails.map((service, index) => (
-              <div key={index} className="bg-card border border-border rounded-xl p-8">
-                <div className="flex items-center gap-4 mb-6">
-                  {<service.icon className="w-8 h-8 text-secondary" />}
-                  <h3 className="text-2xl font-bold text-foreground">{service.title}</h3>
-                </div>
-                <ul className="space-y-3">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center gap-3 text-muted-foreground">
-                      <CheckCircle size={18} className="text-secondary flex-shrink-0" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
           </div>
 
           {/* Benefits Section */}

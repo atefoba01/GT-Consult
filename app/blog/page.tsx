@@ -121,18 +121,18 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <Award size={40} className="text-secondary mx-auto mb-4" />
-              <h3 className="text-3xl font-bold text-foreground">150+</h3>
+              <h3 className="text-3xl font-bold text-foreground">500+</h3>
               <p className="text-muted-foreground mt-2">Projects Completed</p>
             </div>
             <div className="text-center">
               <TrendingUp size={40} className="text-accent mx-auto mb-4" />
-              <h3 className="text-3xl font-bold text-foreground">98%</h3>
+              <h3 className="text-3xl font-bold text-foreground">100%</h3>
               <p className="text-muted-foreground mt-2">Client Satisfaction</p>
             </div>
             <div className="text-center">
               <Sparkles size={40} className="text-secondary mx-auto mb-4" />
               <h3 className="text-3xl font-bold text-foreground">50+</h3>
-              <p className="text-muted-foreground mt-2">Industry Awards</p>
+              <p className="text-muted-foreground mt-2">Team Members</p>
             </div>
           </div>
         </div>

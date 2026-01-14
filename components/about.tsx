@@ -34,12 +34,12 @@ export default function About() {
               </div>
               <div className="h-px bg-border"></div>
               <div className="text-center py-8">
-                <p className="text-5xl font-bold text-accent mb-2">500+</p>
+                <p className="text-5xl font-bold text-accent mb-2">25+</p>
                 <p className="text-foreground font-semibold">Projects Completed</p>
               </div>
               <div className="h-px bg-border"></div>
               <div className="text-center py-8">
-                <p className="text-5xl font-bold text-secondary mb-2">50+</p>
+                <p className="text-5xl font-bold text-secondary mb-2">10+</p>
                 <p className="text-foreground font-semibold">Team Members</p>
               </div>
             </div>
