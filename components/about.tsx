@@ -17,7 +17,7 @@ export default function About() {
               About <span className="text-secondary">GT Consult</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We are Africa's leading hub for impactful storytelling and digital innovation. Our mission is to transform
+              We are Africa's leading hub for impactful storytelling and digital marketing strategy. Our mission is to transform
               ideas into influence by delivering exceptional solutions that help individuals and businesses amplify
               their voices and achieve measurable success.
             </p>

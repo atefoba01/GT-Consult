@@ -36,7 +36,7 @@ export default function TestimonialCard({
 
       <div className="flex items-center gap-4">
         <img
-          src={avatar || "/placeholder.svg"}
+          src={avatar || "/placeholder-user.jpg"}
           alt={name}
           className="w-12 h-12 rounded-full object-cover"
         />

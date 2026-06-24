@@ -136,15 +136,51 @@ const testimonials = [
     role: "Founder, Innovate Africa",
     content: "GT Consult transformed our brand story and helped us reach international markets. Their storytelling expertise is unmatched.",
     rating: 5,
-    avatar: "/placeholder.svg",
+    avatar: "/professional-man-headshot.png",
   },
   {
     name: "Amara Adeyemi",
     role: "CEO, Creative Solutions Ltd",
     content: "Working with GT Consult was a game-changer. They delivered exceptional results and exceeded all our expectations.",
     rating: 5,
-    avatar: "/placeholder.svg",
+    avatar: "/professional-woman-headshot.png",
   },
+  {
+    name: "Isaac Adeleye",
+    role: "CEO, Excellent Homes",
+    content: "GT CONSULT handled our ads with expertise and precision. We saw better visibility and stronger campaign performance. Their service is smooth and excellent communication throughout. We highly recommend GT CONSULT to any organization or individual looking to run effective and results-oriented ad campaigns.",
+    rating: 5,
+    avatar: "/professional-headshot-creative.jpg",
+  },
+  {
+    name: "Head Of School",
+    role: "HILLCITY SCHOOLS",
+    content: "GT CONSULT helped us run our sponsored ads at Hillcity Schools and it was a very smooth process. Getting setup, running the ads and even constant updates, were some of the things we enjoyed working with them. The results were also great, we had lots of calls and people reaching out to us to make enquiries. We'll definitely use them again.",
+    rating: 5,
+    avatar: "/professional-headshot-executive.jpg",
+  },
+  {
+    name: "Imoleayo Adeyemi",
+    role: "VEASE",
+    content: "GT CONSULT handled our blog articles at VEASE and the did a solid job. The writing was clear, professional, and delivered on time. Definitely a team you can trust to get the work done properly.",
+    rating: 5,
+    avatar: "/professional-man-headshot.png",
+  },
+  {
+    name: "Peter Okoroko",
+    role: "CEO, PARFAIT STOP Ltd",
+    content: "Working with GT Consult has been an amazing experience for our brand at parfait stop. Their social media management completely transformed our online presence. From consistent, engaging content to strategic posting and audience interaction, our pages became more lively and attractive to customers. Their TikTok ad campaigns were particularly impressive. GT Consult understood our target audience and created ads that showcased our parfaits in a fun and appetizing way. As a result, we saw increased engagement, more page followers, and a noticeable boost in customer inquiries and orders. We highly recommend GT Consult to any business to grow their brand online through creative content and effective advertising.",
+    rating: 5,
+    avatar: "/professional-headshot-executive.jpg",
+  },
+  {
+    name: "Sheedah Emeraid",
+    role: "CEO, SHEEDAH EVENTS Ltd",
+    content: "Partnering with GT Consult was one of the best decisions we made for sheedah Events. Their team handled our social media management with professionalism and creativity, helping us present our event designs and services in a way that truly reflects our brand. The TikTok advertising strategy they implememented helped us reach a wider audience and attract potential clients who were actively planning events. Their campaigns increased our visibility, improved engagement, and generated quality leads for our event services. They are reliable, easy to work with, and truly understand digital marketing. Hightly recommended.",
+    rating: 5,
+    avatar: "/professional-woman-headshot.png",
+  },
+
 ];
 
 export default function PortfolioPage() {

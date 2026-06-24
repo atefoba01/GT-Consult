@@ -68,16 +68,9 @@ export default function About() {
           </h1>
 
           <p className="text-xl lg:text-2xl text-primary-foreground/90 leading-relaxed max-w-4xl mx-auto">
-            GT Consult was born from a simple belief: that powerful ideas
-            deserve to be seen, heard, and transformed into real influence. What
-            began as a passion for writing and storytelling evolved into a
-            full-fledged agency that bridges creativity with digital strategy.
-            From supporting authors who want their stories in the world to
-            helping brands communicate with clarity and impact, GT Consult
-            exists to make expression effortless and meaningful. Every project
-            reflects our commitment to excellence, innovation, and purposeful
-            communication—because we know that the right words, delivered the
-            right way, can change everything.
+           We are Africa's leading hub for impactful storytelling and digital marketing strategy. Our mission is to transform ideas into influence by delivering exceptional solutions that help individuals and businesses amplify their voices and achieve measurable success.
+
+          With a focus on creativity, excellence, and collaboration, we empower authors, brands, and businesses to connect, inspire, and thrive in a global marketplace.
           </p>
         </div>
       </section>
